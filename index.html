@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- displays site properly based on user's device -->
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="stylesheet" href="style.css">
+      <script defer src="script.js"></script>
+      <title>Frontend Mentor | [Blogr]</title>
+   </head>
+   <body>
+      <!-- Hero Section -->
+      <header id="hero">
+         <figure>
+            <img src="/images/bg-pattern-intro-desktop.svg" alt="background-img" class="hidden-mobile">
+            <img src="/images/bg-pattern-intro-mobile.svg" alt="background-img" class="hidden-tablet">
+         </figure>
+         <nav id="nav-bar">
+            <a href="#hero" id="nav-bar-logo"><img src="/images/logo.svg" alt="logo"></a>
+            <img id="burger-open" src="/images/icon-hamburger.svg" alt="burger" class="hidden-desktop">
+            <div class="burger-hidden burger-inactive">
+               <ul>
+                  <li id="product-container" class="containers">
+                     <div class="containers-links">
+                        Product
+                        <img class="arrow-icon hidden-mobile" src="/images/icon-arrow-light.svg" height="7" width="26">
+                        <img class="dark-arrow-icon hidden-desktop" src="/images/icon-arrow-dark.svg" height="7" width="26">
+                     </div>
+                     <ul class="hidden">
+                        <li value="overview">Overview</li>
+                        <li value="pricing">Pricing</li>
+                        <li value="marketplace">Marketplace</li>
+                        <li value="features">Features</li>
+                        <li value="integrations">Integrations</li>
+                     </ul>
+                  </li>
+                  <li id="company-container" class="containers">
+                     <div class="containers-links">Company
+                        <img class="arrow-icon hidden-mobile" src="/images/icon-arrow-light.svg" height="7" width="26">
+                        <img class="dark-arrow-icon hidden-desktop" src="/images/icon-arrow-dark.svg" height="7" width="26">
+                     </div>
+                     <ul class="hidden">
+                        <li value="about">About</li>
+                        <li value="team">Team</li>
+                        <li value="blog">Blog</li>
+                        <li value="careers">Careers</li>
+                     </ul>
+                  </li>
+                  <li id="connect-container" class="containers">
+                     <div class="containers-links">
+                        Connect
+                        <img class="arrow-icon hidden-mobile" src="/images/icon-arrow-light.svg" height="7" width="26">
+                        <img class="dark-arrow-icon hidden-desktop" src="/images/icon-arrow-dark.svg" height="7" width="26">
+                     </div>
+                     <ul class="hidden">
+                        <li value="contact">Contact</li>
+                        <li value="newsletter">Newsletter</li>
+                        <li value="linkedIn">LinkedIn</li>
+                        <li value="careers">Careers</li>
+                     </ul>
+                  </li>
+               </ul>
+               <div id="login-signup">
+                  <button type="button" id="login">Login</af=>
+                  <button type="button" id="sign-up">Sign Up</button>
+               </div>
+            </div>
+         </nav>
+         <div class="hero-info">
+            <h1>A modern publishing platform</h1>
+            <p>Grow your audience and build your online brand</p>
+         </div>
+         <div class="more-info">
+            <button>Start for Free</button>
+            <button>Learn More</button>
+         </div>
+      </header>
+      <!-- Main Section -->
+      <main>
+         <section class="first-section">
+            <h2>Designed for the future</h2>
+            <article>
+               <h3>Introducing an extensible editor</h3>
+               <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+                  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+                  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+                  change the looks of a blog.
+               </p>
+            </article>
+            <article>
+               <h3>Robust content management</h3>
+               <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+                  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+               </p>
+            </article>
+         </section>
+         <section class="second-section">
+            <figure>
+               <img src="/images/bg-pattern-circles.svg" alt="bg-pattern-circles">
+               <img src="/images/illustration-phones.svg" alt="Phones">
+            </figure>
+            <article>
+               <h2>State of the Art Infrastructure</h2>
+               <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+                  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+               </p>
+            </article>
+         </section>
+         <section class="third-section">
+            <div class="container">
+               <article>
+                  <h3>Free, open, simple</h3>
+                  <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+                     features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+                     and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+                  </p>
+               </article>
+               <article>
+                  <h3>Powerful tooling</h3>
+                  <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                     capable of producing even the most complicated sites.
+                  </p>
+               </article>
+            </div>
+         </section>
+      </main>
+      <!-- Footer Section -->
+      <footer>
+         <a href="#hero"><img src="/images/logo.svg" alt="logo"></a>
+         <div class="product-footer">
+            <h4>Product</h4>
+            <ul>
+               <li>Overview</li>
+               <li>Pricing</li>
+               <li>Marketplace</li>
+               <li>Features</li>
+               <li>Integrations</li>
+            </ul>
+         </div>
+         <div class="company-footer">
+            <h4>Company</h4>
+            <ul>
+               <li>About</li>
+               <li>Team</li>
+               <li>Blog</li>
+               <li>Careers</li>
+            </ul>
+         </div>
+         <div class="connect-footer">
+            <h4>Connect</h4>
+            <li>Contact</li>
+            <li> Newsletter</li>
+            <li> LinkedIn</li>
+         </div>
+      </footer>
+      </div>
+   </body>
+</html>
