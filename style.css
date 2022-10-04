@@ -470,10 +470,10 @@ footer li:hover {
 }
 
 @media only screen and (max-width:59.6875em)/* 955px */ {
-	.hidden-desktop {
+	.hidden-desktop:not(#hero .hidden-desktop) {
 		display: block;
 	}
-	.hidden-mobile,.containers-links .hidden-mobile,.hidden-tablet{
+	.containers-links .hidden-mobile{
 		display: none;
 	}
 	button,
@@ -550,7 +550,7 @@ footer li:hover {
 		position: relative;
 	}
 
-	.hidden-mobile {
+	.hidden-mobile:not(#hero .hidden-mobile) {
 		height: 0;
 		overflow: hidden;
 		width: 100%;
