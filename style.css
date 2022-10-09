@@ -98,6 +98,10 @@
 	font-weight: 400;
 }
 
+html{
+	overflow-x:hidden;
+}
+
 body {
 	font-family: 'Ubuntu', sans-serif;
 	max-width: 1440px;
