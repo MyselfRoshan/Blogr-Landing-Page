@@ -411,6 +411,7 @@ footer {
 	padding: 4.3rem 0 5rem 10.2rem;
 	gap: 11.9rem;
 	height: 10%;
+	overflow:hidden;
 }
 
 footer h4 {
