@@ -106,6 +106,7 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 	max-width: 1440px;
 	background: var(--body-background);
+	margin-inline:auto;
 }
 
 h1,
